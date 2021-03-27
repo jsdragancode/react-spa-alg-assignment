@@ -1,5 +1,6 @@
 import { createServer, Model } from "miragejs"
 
+// mock api
 export function makeServer() {
   let server = createServer({
     models: {
@@ -7,7 +8,7 @@ export function makeServer() {
     },
 
     seeds(server) {
-      server.create("service", { id: 1, title: "sitecostructor.io", description: "Sitecostructor Description", promocode: "sitepromocode", activated: false})
+      server.create("service", { id: 1, title: "siteco.io", description: "Siteco Description", promocode: "sitecopromocode", activated: false})
       server.create("service", { id: 2, title: "appvision.com", description: "Appvision Description", promocode: "apppromocode", activated: false})
       server.create("service", { id: 3, title: "wordpress.com", description: "Wordpress Description", promocode: "wordpresspromocode", activated: false})
       server.create("service", { id: 4, title: "apple.com", description: "Apple Description", promocode: "applepromocode", activated: false})

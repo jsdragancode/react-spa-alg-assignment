@@ -91,15 +91,17 @@ class Services extends Component {
         // show matched services
         servicesResult = matchedServices.map(service => {
             return (
-                <div className={styles.ServicesContents} key={service.id}>
-                    <div className={styles.ServicesContent}>
-                        <div className={styles.ServicesSummary}>
-                            <span>{service.title}</span>
-                            <p>{service.description}</p>
-                        </div>
-                        <div className={styles.PromocodeContent}>
+                <div className={styles.ServicesContent} key={service.id}>
+                    <div className={styles.ServicesSummary}>
+                        <span>{service.title}</span>
+                        <p>{service.description}</p>
+                    </div>
+                    <div className={styles.PromocodeContent}>
+                        <div className={styles.PromocodeInfo}>
                             <div className={styles.Promocode}>
-                                <label>Promocode</label>
+                                <div className={styles.PromoLabelContent}>
+                                    <label>Promocode</label>
+                                </div>
                                 <div className={styles.PromocodeInputBox}>
                                     <input type="text" id="promocode" value={service.promocode} disabled={true}/>
                                     <CopyToClipboard text={service.promocode}>
@@ -107,7 +109,9 @@ class Services extends Component {
                                     </CopyToClipboard>
                                 </div>
                             </div>
-                            <button className={service.activated ? styles.ActivateBonous : styles.InActivateBonous} onClick={() => this.handleActivate(service.id)}>{service.activated ? "Activated" : "Activate bonus"}</button>
+                            <div className={styles.ActiveBtnContent}>
+                                <button className={service.activated ? styles.ActivateBonous : styles.InActivateBonous} onClick={() => this.handleActivate(service.id)}>{service.activated ? "Activated" : "Activate bonus"}</button>
+                            </div>
                         </div>
                     </div>
                 </div>
