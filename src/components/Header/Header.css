@@ -20,13 +20,13 @@ header {
     flex-direction: column;
 }
 
-.PayInfo span{
+.PayInfo span {
     font-size: 13px;
     color: #7D7D7D;
     line-height: 19px;
 }
 
-.PayInfo p{
+.PayInfo p {
     font-style: normal;
     font-weight: normal;
     font-size: 19px;

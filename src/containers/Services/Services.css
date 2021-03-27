@@ -206,6 +206,18 @@ input {
 .ActivateBonous {
     width: 300px;
     height: 48px;
+    background: #75ade1;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 22px;
+    border: none;
+}
+
+.InActivateBonous {
+    width: 300px;
+    height: 48px;
     background: #0085FF;
     border-radius: 4px;
     color: white;
@@ -213,4 +225,9 @@ input {
     font-style: normal;
     margin-top: 22px;
     border: none;
+    cursor: pointer;
+}
+
+.InActivateBonous:hover {
+    opacity: 0.7;
 }
