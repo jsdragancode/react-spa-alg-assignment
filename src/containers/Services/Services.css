@@ -1,3 +1,15 @@
+h2,
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+span,
+label,
+button,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
 .Container {
     width: calc(100% - 80px);
     height: 100vh;
@@ -112,6 +124,7 @@
 }
 
 .ServicesSummary p {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -132,7 +145,6 @@
 }
 
 .Promocode label {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
