@@ -1,0 +1,191 @@
+.Container {
+    width: calc(100% - 80px);
+    height: 100vh;
+    overflow: scroll;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+
+.MainContent {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: 80px;
+    display: inline-block;
+    width: calc(100% - 80px);
+    padding: 40px 32px;
+}
+
+.ContentTitle {
+    margin-bottom: 15px;
+}
+
+.ContentTitle h2 {
+    color: #262626;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 46px;
+}
+
+.FilterContent {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.FilterBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.FilterBox label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    margin-bottom: 7px;
+}
+
+.FilterBox input {
+    width: 300px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 17px;
+    color: #262626;
+}
+
+.FilterBox input:focus {
+    border: 1px solid #2F80ED;
+    box-shadow: 1px 1px 1px 1px #7baef0, 1px 1px 1px 1px #5498f1;
+}
+
+.FilterReset {
+    margin-left: 8px;
+}
+
+.ResetButton {
+    width: 149px;
+    height: 48px;
+    font-size: 19px;
+    line-height: 28px;
+    color: #262626;
+    border: 1px solid #CFD2D9;
+    margin-top: 23px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.ResetButton:hover {
+    background-color: #e7e7e7;
+}
+
+.ServicesContent {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #E2E5EC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    margin-bottom: 24px;
+    padding: 26px 32px;
+    position: relative;
+}
+
+.ServicesSummary span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.ServicesSummary p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #7D7D7D;
+}
+ 
+.PromocodeContent {
+    display: flex;
+    position: absolute;
+    right: 32px;
+}
+
+.Promocode {
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Promocode label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    margin-bottom: 7px;
+}
+
+.PromocodeInputBox {
+    display: flex;
+    position: relative;
+}
+
+.PromocodeInputBox input {
+    width: 300px;
+    height: 48px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #CFD2D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #262626;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 17px;
+}
+
+.PromocodeInputBox input:focus {
+    border: 1px solid #2F80ED;
+    box-shadow: 1px 1px 1px 1px #7baef0, 1px 1px 1px 1px #5498f1;
+}
+
+.PromocodeInputBox img {
+    width: 14px;
+    height: 16px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.ActivateBonous {
+    width: 300px;
+    height: 48px;
+    background: #0085FF;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 22px;
+    border: none;
+}

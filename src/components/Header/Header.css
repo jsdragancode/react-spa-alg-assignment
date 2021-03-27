@@ -1,0 +1,36 @@
+header {
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    padding: 0 32px;
+    position: fixed;
+    top: 0;
+}
+
+.Container {
+    margin: 0 auto;
+    padding-top: 18px;
+    display: flex;
+}
+
+.PayInfo {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PayInfo span{
+    font-size: 13px;
+    color: #7D7D7D;
+    line-height: 19px;
+}
+
+.PayInfo p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #262626;
+}

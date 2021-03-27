@@ -1,0 +1,22 @@
+footer {
+    background-color: #E5E5E5;
+    width: calc(100% - 80px);
+    height: 51px;
+    position: fixed;
+    bottom: 0;
+    padding: 0 32px;
+}
+
+.Copyright {
+    border-top: 1px solid #E9E9E9;
+    height: 100%;
+    padding-top: 16px;
+}
+
+.Copyright span {
+    font-size: 13px;
+    line-height: 19.04px;
+    color: #ABABAB;
+    float: right;
+    margin-right: 27px;
+}
