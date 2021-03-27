@@ -150,5 +150,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "miragejs": "^0.1.41"
   }
 }
