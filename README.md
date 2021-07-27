@@ -20,3 +20,7 @@ https://www.figma.com/file/6J7oriX3K4zPLF2lrhfIvJ/front-end-test-prototype
    "npm install"
 3. Run project.
    "npm start"
+   
+# View result
+   You can see the result with follow url.
+   https://react-spa-alg-assignment-git-main-jscodestack.vercel.app/
